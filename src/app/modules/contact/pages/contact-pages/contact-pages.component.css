@@ -1,0 +1,90 @@
+.contact{
+    position: fixed;
+    background-color:rgb(65, 64, 66);
+    margin-left: 22rem;
+    margin-top: 6rem;
+    height: 38rem;
+    width: 70rem;
+    border-radius: 15px;
+}
+h1{
+    display: block;
+    width: 10rem;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: black;
+    color: whitesmoke;
+    border-radius: 15px
+}
+.info{
+    position: fixed;
+    display: inline-block;
+    margin-left: 6rem;
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+    margin-top: 2rem;
+    color: rgb(147, 149, 153);
+    content: normal;
+}
+.hyper{
+    position: static;
+    display: inline-block;
+}
+.info .hyper:hover{
+    color: rgb(100, 101, 104); 
+}
+.form{
+    display: inline-block;
+    margin-left: 41rem;
+    margin-top: -1rem;
+    background-color: rgb(255, 250, 181);
+    padding: 1.1rem;
+    border-radius: 15px;
+    
+}
+button{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+button:disabled{
+    color: black;
+    cursor: default;
+}
+input, button{
+    display: block;
+    margin-bottom: 1.2rem;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.1rem;
+}
+textarea{
+    display: block;
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info i{
+    margin: .8rem;
+    display: inline-flex;
+    font-size: 3.2rem;
+    color: rgb(255, 255, 255);
+}
+p{
+    margin: 0;
+}
+span{
+    cursor: pointer;
+}
+input,textarea{
+    border-radius: 10px;
+    font-family: cursive;
+}
+textarea{
+    margin-bottom: .5rem;
+}
+button{
+    border-radius: 15px;
+}

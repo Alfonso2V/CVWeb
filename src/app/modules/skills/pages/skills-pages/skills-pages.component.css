@@ -1,0 +1,36 @@
+.skills{
+    position: fixed;
+    margin-left: 22rem;
+    margin-top: 6rem;
+    height: 38rem;
+    width: 70rem;
+    background: url('https://cdn.pixabay.com/photo/2018/04/25/21/17/shabby-paper-3350613_960_720.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abilities{
+    display: block;
+    /* margin-left: 10rem; */
+}
+h1{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.conocimiento ul li{
+    display: block;
+    margin: .8rem;
+    margin-left: 11.5rem;
+    font-size: 1.8rem;
+    font-family: 'Poppins' ;
+    width: 50rem;
+}
+.conocimiento li::before{
+    content: '→';
+}

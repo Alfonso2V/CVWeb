@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<div class="menuBar">
+    <ul>
+        <i class="uil uil-bars"></i>
+        <li *ngFor="let item of menuOptions" [routerLink]="item.router">
+            {{item.name}}
+        </li>
+    </ul>
+</div>

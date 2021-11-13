@@ -1,0 +1,46 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<div class="contact">
+    <h1>Contacto</h1>
+    <div class="info">
+        <p>
+            <i class="uil uil-at"></i>
+            _AlfonsoV@outlook.com
+        </p>
+        <p>
+            <i class="uil uil-phone"></i>
+            <i class="uil uil-whatsapp"></i>
+            (444)-1-86-15-63
+        </p>
+        <p class="hyper">
+            <i class="uil uil-facebook"></i>
+            <span (click)="goToLink('https://www.facebook.com/LSBY.AlfonsoV/')">Alfonso Verastegui</span>
+        </p>
+        <br>
+        <p class="hyper">
+            <i class="uil uil-twitter"></i>
+            <span (click)="goToLink('https://twitter.com/_AlfonsoV')">@_AlfonsoV</span>
+        </p>
+        <br>
+        <p class="hyper">
+            <i class="uil uil-github"></i>
+            <span (click)="goToLink('https://github.com/Alfonso2V')">Alfonso2V</span>
+        </p>
+    </div>
+    <div class="form">
+        <form (ngSubmit)="sendInfo()" [formGroup]="formLogin">
+            <label for="name">Nombre: *</label>
+            <input formControlName="name" type="text" placeholder="Escribe tu nombre">
+            <label for="email">Correo electronico: *</label>
+            <input formControlName="email" type="text" placeholder="Escribe tu correo Electronico">
+            <label for="subject">Asunto: *</label>
+            <input formControlName="subject" type="text" placeholder="Escribe un asunto">
+            <label for="message">Mensaje: *</label>
+            <textarea formControlName="message" placeholder="Dejame un mensaje ;)"></textarea>
+            <label>* Los campos son obligatorios</label>
+            <button [disabled]="formLogin.invalid" class="sendButton">Enviar</button>
+            <label *ngIf="formLogin.invalid && formLogin.touched">Completa todos los campos</label>
+        </form>
+    </div>
+</div>

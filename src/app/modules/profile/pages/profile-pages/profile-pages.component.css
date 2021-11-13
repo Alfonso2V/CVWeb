@@ -1,0 +1,83 @@
+.profile{
+    position: fixed;
+    margin-left: 22rem;
+    margin-top: 6rem;
+    border-radius: 15px;
+    background: linear-gradient(90deg,#153ec4,60%,#2b3b44);
+    box-shadow: rgb(0, 0, 0) 0px 35px 50px 10px;
+    height: 38rem;
+    width: 35rem;
+}
+img{
+    width: 35rem;
+    height: 22rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.about{
+    height: 34rem;
+    min-width: 25rem;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    background: linear-gradient(90deg,#909090,60%,#dce7f8);
+    margin-left: 57rem;
+    margin-top: 8rem;
+    margin-right: 3rem;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #979dac;
+}
+i{
+    font-size: 3rem;
+    margin: 0 1.5rem 0 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+h3{
+    margin:2rem;
+    cursor: pointer;
+    display: inline-block;
+}
+h3:hover{
+    color:cadetblue;
+}
+.textAboutMe{
+    width: 19rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    text-align: justify;
+    
+}
+.education{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.education p{
+    display: inline-block;
+    width: 17rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.data{
+    display: inline-block;
+}
+.data ul{
+    list-style: none;
+    margin: .5rem;
+    margin-top: .5rem;
+    padding: .5rem;
+    float: left;
+}
+.data ul li{
+    padding: .7rem;
+    border: 1px solid #7a7a7a;
+}
+span{
+    color: navy;
+}
