@@ -1,0 +1,58 @@
+.folder{
+    position: fixed;
+    background-color:rgb(31, 31, 31);
+    margin-left: 22rem;
+    margin-top: 6rem;
+    height: 38rem;
+    width: 70rem;
+    border-radius: 15px;
+    overflow-y: scroll;
+    color: lightgray;
+}
+img{
+    height: 14rem;
+    width: 21rem;
+    position:static;
+    margin-right: 3rem;
+    display: inline-block;
+}
+span{
+    cursor: pointer;
+}
+span:hover{
+    color: rgb(81, 255, 0);
+}
+p{
+    max-width: 30rem;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    display: inline-block;
+}
+span, p{
+    display:inline-block;
+    margin: 1rem 0;
+    
+}
+span{
+    list-style: disc;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+h3{
+    text-transform: uppercase;
+    display: inline-block;
+}
+i{
+    font-size: 2rem;
+}
+li{
+    column-count: 2;
+    list-style: none;
+}
+h2{
+    text-align: center;
+}
+ul{
+    padding: 0 15px ;
+}

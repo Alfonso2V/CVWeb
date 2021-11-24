@@ -11,7 +11,13 @@
 }
 .abilities{
     display: block;
-    /* margin-left: 10rem; */
+    margin-left: 14rem;
+    font-size: 1.8rem;
+}
+.abilities ul{
+    display: inline-block;
+    margin: 0;
+    margin-right: 3rem;
 }
 h1{
     display: block;

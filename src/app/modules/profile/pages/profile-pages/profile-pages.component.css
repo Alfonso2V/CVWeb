@@ -3,14 +3,15 @@
     margin-left: 22rem;
     margin-top: 6rem;
     border-radius: 15px;
-    background: linear-gradient(90deg,#153ec4,60%,#2b3b44);
+    background: rgb(0,0,0);
+    background: linear-gradient(332deg, rgba(0,0,0,1) 8%, rgba(0,29,247,1) 67%);
     box-shadow: rgb(0, 0, 0) 0px 35px 50px 10px;
     height: 38rem;
     width: 35rem;
 }
 img{
     width: 35rem;
-    height: 22rem;
+    height: 25rem;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -33,16 +34,22 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #979dac;
 }
-i{
+.profile i{
     font-size: 3rem;
     margin: 0 1.5rem 0 1.5rem;
     display: inline-block;
     cursor: pointer;
+    color: whitesmoke;
+}
+.education i{
+    font-size: 3rem;
+    margin: 0;
 }
 h3{
-    margin:2rem;
+    margin:1rem;
     cursor: pointer;
     display: inline-block;
+    color: gray;
 }
 h3:hover{
     color:cadetblue;
@@ -59,6 +66,7 @@ h3:hover{
     margin-left: 1.5rem;
 }
 .education p{
+    margin: 0;
     display: inline-block;
     width: 17rem;
     text-align: justify;

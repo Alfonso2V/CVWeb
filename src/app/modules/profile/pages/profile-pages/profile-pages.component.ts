@@ -14,6 +14,9 @@ export class ProfilePagesComponent implements OnInit {
   ngOnInit(): void {
     this.edad = this.calculeAge()
   }
+  downloadFile(): void {
+    window.open("../../../../../assets/Rodrigo Alfonso Verastegui García.pdf", "_blank")
+  }
   calculeAge(): number {
     let edadActual = 24
     let anioActual = 2021

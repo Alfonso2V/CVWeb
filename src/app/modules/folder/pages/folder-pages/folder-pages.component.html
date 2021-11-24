@@ -1,1 +1,15 @@
-<p>folder-pages works!</p>
+<div class="folder">
+    <ul *ngFor="let item of data">
+        <h2>{{item.name}} </h2>
+        <li>
+            <h3>Hecho con: {{item.app}}</h3>
+            <img [src]="item.image" alt="">
+            <p>{{item.description}}</p>
+            <span (click)="goToApp(item.url)"><i class="uil uil-corner-right-down"></i><br>Click aqui para ir a la
+                aplicación</span>
+            <br>
+            <span (click)="goToApp(item.repo)"> Visitar repositorio </span>
+        </li>
+        <hr>
+    </ul>
+</div>

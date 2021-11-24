@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api: 'http://192.168.1.81:3001'
+  api: 'https://focused-goodall-9a4a38.netlify.app/.netlify/functions'
 };
 
 /*

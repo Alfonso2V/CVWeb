@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { EmailValidator, FormControl, FormGroup, Validators } from '@angular/forms';
 import { environment } from 'src/environments/environment';
@@ -33,16 +33,15 @@ export class ContactPagesComponent implements OnInit {
   sendInfo(): void {
     const { name, email, subject, message } = this.formLogin.value
     const body = {
-      name,
-      email,
-      subject,
-      message
+      name: name,
+      email: email,
+      subject: subject,
+      message: message
     }
-    console.log(this.formLogin.value)
+    this.http.post(`${this.URL}/prueba?nombre=${name}&email=${email}&asunto=${subject}&mensaje=${message}`, body)
+      .subscribe(Response => {
+        console.log(Response)
+      })
     alert("Gracias por enviar mensaje, me pondre en contacto lo mas pronto posible.");
-    // this.http.post(`${this.URL}/sendMail`, body)
-    //   .subscribe(Response => {
-
-    //   })
   }
 }
